@@ -11,15 +11,17 @@ class Book
     // The fields.
     private String author;
     private String title;
+    private int pages; //Exercise 2.85: Added a field of pages of type int.
 
     /**
-     * Set the author and title fields when this object
+     * Set the author, title fields and pages when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle)
+    public Book(String bookAuthor, String bookTitle, int bookPages)
     {
         author = bookAuthor;
         title = bookTitle;
+        pages = bookPages; //Exercise 2.85: Added pages into constructor.
     }
     
     //Exercise 2.83: accessor method getAuthor() will return author.
@@ -32,6 +34,12 @@ class Book
     public String getTitle()
     {
         return title;
+    }
+    
+    //Exercise 2.85: accessor method getPages() will return number of pages.
+    public int getPages()
+    {
+        return pages;
     }
     
     //Exercise 2.84: Added method printAuthor() that should print out author in the terrminal window.
