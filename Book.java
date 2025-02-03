@@ -25,7 +25,8 @@ class Book
      * Set the author, title fields and pages when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle, int bookPages)
+    public Book(String bookAuthor, String bookTitle, int bookPages, 
+    String refNumber)
     {
         author = bookAuthor;
         title = bookTitle;
