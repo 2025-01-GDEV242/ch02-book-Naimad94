@@ -21,6 +21,18 @@ class Book
         author = bookAuthor;
         title = bookTitle;
     }
+    
+    //accessor method getAuthor() will return author.
+    public String getAuthor()
+    {
+        return author;
+    }
+    
+    //accessor method getTitle() will return tile.
+    public String getTitle()
+    {
+        return title;
+    }
 
     // Add the methods here ...
 }
