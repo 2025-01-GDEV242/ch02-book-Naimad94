@@ -22,16 +22,28 @@ class Book
         title = bookTitle;
     }
     
-    //accessor method getAuthor() will return author.
+    //Exercise 2.83: accessor method getAuthor() will return author.
     public String getAuthor()
     {
         return author;
     }
     
-    //accessor method getTitle() will return tile.
+    //Exercise 2.83: accessor method getTitle() will return tile.
     public String getTitle()
     {
         return title;
+    }
+    
+    //Exercise 2.84: Added method printAuthor() that should print out author in the terrminal window.
+    public void printAuthor()
+    {
+        System.out.println(author);
+    }
+    
+    //Exercise 2.84: Added method printTitle() that should print out author in the terrminal window.
+    public void printTitle()
+    {
+        System.out.println(title);
     }
 
     // Add the methods here ...
