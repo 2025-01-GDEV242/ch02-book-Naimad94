@@ -51,27 +51,28 @@ class Book
         return pages;
     }
     
-    //Exercise 2.84: Added method printAuthor() that should print out author in the terrminal window.
+    //Exercise 2.84: Added mutator method printAuthor() that should print out author in the terrminal window.
     public void printAuthor()
     {
         System.out.println(author);
     }
     
-    //Exercise 2.84: Added method printTitle() that should print out author in the terrminal window.
+    //Exercise 2.84: Added mutator method printTitle() that should print out author in the terrminal window.
     public void printTitle()
     {
         System.out.println(title);
     }
     
     /**
-     * Exercise 2.87: Added method printDetails() that should print details of the author, title and pages to 
-     * terminal window
+     * Exercise 2.87: Added mutator method printDetails() that should print details of the author, 
+     * title and pages to terminal window
      */
     public void printDetails()
     {
         System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages);
     }
     
+    //Exercise 2.88 Created mutator method for setRefNumber.
     public void setRefNumber(String ref)
     {
         
