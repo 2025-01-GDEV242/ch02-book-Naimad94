@@ -19,6 +19,7 @@ class Book
     private String author;
     private String title;
     private int pages; //Exercise 2.85: Added a field of pages of type int.
+    private String refNumber; //Exercise 2.88: Added a field of refNumber of type String.
 
     /**
      * Set the author, title fields and pages when this object
@@ -29,6 +30,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages; //Exercise 2.85: Added pages into constructor.
+        refNumber = ""; //Exercise 2.88 Build the constructor for refNumber.
     }
     
     //Exercise 2.83: accessor method getAuthor() will return author.
@@ -68,6 +70,11 @@ class Book
     public void printDetails()
     {
         System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages);
+    }
+    
+    public void setRefNumber(String ref)
+    {
+        
     }
 
     // Add the methods here ...
