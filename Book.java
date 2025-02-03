@@ -45,6 +45,12 @@ class Book
         return title;
     }
     
+    //Exercise 2.88: accessor method getRefNumber() will return refNumber.
+    public String getRefNumber()
+    {
+        return refNumber;
+    }
+    
     //Exercise 2.85: accessor method getPages() will return number of pages.
     public int getPages()
     {
@@ -66,16 +72,19 @@ class Book
     /**
      * Exercise 2.87: Added mutator method printDetails() that should print details of the author, 
      * title and pages to terminal window
+     * 
+     * Exercise 2.89: Modified the print details method.
      */
     public void printDetails()
     {
-        System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages);
+        System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages + 
+        "refNumber: " + refNumber);
     }
     
-    //Exercise 2.88 Created mutator method for setRefNumber.
+    //Exercise 2.88 Created mutator method for setRefNumber that will assign the string to refNumber.
     public void setRefNumber(String ref)
     {
-        
+        refNumber = ref;
     }
 
     // Add the methods here ...
