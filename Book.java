@@ -6,6 +6,13 @@
  * @author Damian Davila
  * @version February 3, 2025
  */
+
+/**
+ * Exercise 2.86 Are the Book objects you have implemented immutable? Justicy your answer.
+ * 
+ * Yes, the objects are immutable because in order to create an object you must set (author, title and page number)
+ * and once created it cannot be changed or edit.
+ */
 class Book
 {
     // The fields.
