@@ -60,6 +60,15 @@ class Book
     {
         System.out.println(title);
     }
+    
+    /**
+     * Exercise 2.87: Added method printDetails() that should print details of the author, title and pages to 
+     * terminal window
+     */
+    public void printDetails()
+    {
+        System.out.println("Title: " + title + ", " + "Author: " + author + ", " + "Pages: " + pages);
+    }
 
     // Add the methods here ...
 }
